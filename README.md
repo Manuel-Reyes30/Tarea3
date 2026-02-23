@@ -20,8 +20,8 @@ En este reto deberás desarrollar una página de contacto utilizando HTML y CSS.
 ---
 
 ## 🔗 Enlace al proyecto
-Repositorio en GitHub: 
-Deploy: 
+Repositorio en GitHub: https://github.com/Manuel-Reyes30/Tarea3
+Deploy:https://manuel-reyes30.github.io/Tarea3/ 
 ---
 
 ## 📝 Reflexión
