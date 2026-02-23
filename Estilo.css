@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fondo{
+    min-height: 100vh;
+    background-image: url("imagenes/background@2x.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    color: white;
+}
+
+/* Logo */
+
+.logo{
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+/* Encabezado */
+
+.titprincipal h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.titprincipal p{
+    font-size: 20px;
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+
+/* Formulario */
+
+.formulario{
+    background: rgba(255,255,255,0.1);
+    padding: 40px;
+    border-radius: 20px;
+
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.15);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.fila{
+    display: flex;
+    gap: 25px;
+}
+
+.campo{
+    flex: 1;
+    text-align: left;
+    position: relative;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+input,
+select,
+textarea{
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+}
+
+textarea{
+    min-height: 120px;
+    resize: none;
+}
+
+/* Flecha personalizada */
+
+.select select{
+    appearance: none;
+}
+
+.flecha{
+    position: absolute;
+    right: 15px;
+    top: 42px;
+    width: 15px;
+}
+
+/* Botón */
+
+.boton{
+    padding: 18px;
+    border-radius: 15px;
+    border: none;
+    background: white;
+    color: #4b2aad;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.boton:hover{
+    opacity: 0.9;
+}
+
+/* Responsive */
+
+@media (max-width: 768px){
+
+    .fila{
+        flex-direction: column;
+    }
+
+    .encabezado h1{
+        font-size: 32px;
+    }
+
+    .encabezado p{
+        font-size: 16px;
+    }
+}
